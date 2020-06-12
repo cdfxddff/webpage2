@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+}
+header{
+    height:40px;
+    padding: 15px 100px;
+    vertical-align: middle;
+    background-color: rgb(78, 216, 170);
+    color: white;
+}
+.inn{
+    margin: 0;
+}
+.co{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+aside{
+    flex:1;
+}
+.ind{
+    margin-top: 300px;
+    margin-bottom: 100vh;
+}
+main{
+    flex: 6;
+    background-color: white;
+}
+.title{
+    padding-bottom: 80px;
+}
+h1{
+    margin:20px;
+}
+nav{
+    flex: 2;
+}
